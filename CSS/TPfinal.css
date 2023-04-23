@@ -6,7 +6,6 @@
 body {
     color:black;
     background-color: #fdfdd3;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -74,10 +73,14 @@ h1 {
     margin-top: 30px;
     margin: 30px;
     font-family:'Times New Roman', Times, serif;
+    border-bottom: 1px solid #2e1d17;
+    text-align: center;
+    width: 60%;
 }
 
 h2 {
     font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
     border-bottom: 1px solid #2e1d17;
     width: 60%;
@@ -86,10 +89,9 @@ h2 {
 
 #form {
     padding: 50px;
-    margin: 50px;
+    margin: auto;
+    margin-bottom: 50px;
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #b37662be;
     border-radius: 5px;
 }
@@ -110,8 +112,17 @@ a:hover {
     color:#FFFFB9;
 }
 
+.redes a:hover{
+    color: #6c3b2a;
+ }
+ 
+ .redes a{
+     color: #2e1d17;
+     font-size: 50px;
+     margin: 30px;
+ }
+
 .container-producto {
-    border: 1px solid #2e1d17;
     border-radius: 5px;
     padding: 10px;
     background-color: #b37662be;
@@ -124,14 +135,9 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.container-producto h2 {
-    font-size: 15px;
+.container-producto h3 {
+    font-size: 10px;
     margin-bottom: 5px;
-}
-
-#contenedor {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 footer p {
