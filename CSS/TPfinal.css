@@ -85,6 +85,7 @@ h2 {
     border-bottom: 1px solid #2e1d17;
     width: 60%;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 #form {
@@ -145,4 +146,16 @@ footer p {
     font-size: 11px;
     text-align: center;
     padding-top: 18px;
+}
+
+p {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#mascotas {
+    width: 95%;
+    height: 95%;
+    margin-left: 10%;
 }
