@@ -5,7 +5,7 @@ let mapOptions = {
 
 let map = new L.map('map' , mapOptions);
 
-let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+let layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 map.addLayer(layer);
 
 let customIcon = {
@@ -27,5 +27,6 @@ marker.addTo(map);
 marker.bindPopup("<span style='font-size: 18px;'>Dog King: Pet Shop<br>Cerviño 4719, Isidro Casanova</span>").openPopup();
 
 //http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+
 
 
