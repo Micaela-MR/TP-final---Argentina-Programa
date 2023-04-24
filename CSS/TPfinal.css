@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     border-bottom: 1px solid #2e1d17;
@@ -101,28 +101,39 @@ a:hover {
     color: #6c3b2a;
  }
  
- .redes a{
+.redes a{
      color: #2e1d17;
      font-size: 50px;
      margin: 30px;
- }
+}
 
 .container-producto {
+    height: 350px;
     border-radius: 5px;
     padding: 10px;
-    background-color: #b37662be;
+    background-color: #ffffff;
+    border: 1px solid #b37662be;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .container-producto img {
-    max-width: 100%;
+    width: 200px;
     height: auto;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .container-producto h3 {
-    font-size: 10px;
+    font-size: 18px;
     margin-bottom: 5px;
+}
+
+.container-producto a{
+    color: #6c3b2a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 footer{
@@ -134,7 +145,7 @@ footer{
 
 p {
     color: #2e1d17;
-    font-size: 18px;
+    font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
 }
